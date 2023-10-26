@@ -1,0 +1,19 @@
+{
+  "user": "Hreesang",
+  "repo": "openmp-sampctl-boilerplate",
+  "tag": "1.0.0",
+  "entry": "gamemodes/bare.pwn",
+  "output": "gamemodes/bare.amx",
+  "dependencies": [
+    "pawn-lang/samp-stdlib@open.mp",
+    "pawn-lang/pawn-stdlib@open.mp"
+  ],
+  "local": true,
+  "runtime": {
+    "mode": "main",
+    "version": "0.3.DL"
+  },
+  "build": {
+    "includes": ["legacy"]
+  }
+}
